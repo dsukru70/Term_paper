@@ -1,0 +1,67 @@
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Navbar background-color rengi */
+.navbar-kirmizi-renk{   
+    background-color: #d31b2a !important; 
+}
+
+/*  Navbar içerisindeki linklerin yazı rengi  */
+.container ul li a{
+    color: white;
+    font-size: 16px;
+    margin-left: 20px;
+}
+
+/*  Navbar içerisindeki linklerin yazı üzerine gelince gerçekleşecek işlem  */
+.container ul li a:hover{
+    color: #3f1818;
+}
+
+/*  Slaydır içerisindeki resmin uzunluğunu ayarlamak için  */
+.carousel-item img{
+    width: 100%;
+    height: 555px;
+}
+
+.AyinYildizi{
+    text-align: center;
+    background-color: #d31b2a;
+    margin-top: 0px;
+    color: white;
+    font-size: 16px;
+}
+
+.card-img-top{
+    width: 100%;
+    height: 400px;
+}
+
+.hoverolunca:hover{
+    box-shadow: 0px 7px 29px rgba(100, 100, 111, 0.5);
+}
+
+.card-body h5{
+    text-align: center;
+    font-size: 25px;
+}
+
+.card-body p{
+    text-align: center;
+    font-size: 19px;
+}
+
+.card-body .btn{
+    margin-left: 100px ;
+}
+
+
+.col{
+    border-radius: 30px;
+}
+
+

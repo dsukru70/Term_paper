@@ -1,0 +1,30 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbarın arka pilan rengi */
+.navbar-kirmizi-renk{
+    background-color: #d31b2a !important; 
+    
+
+}
+
+/* Navbar içindeki linklerin rengi */
+.container ul li a{
+    color: white;
+    font-size: 16px;
+    margin-left: 20px;
+}
+
+/* Yazının büyüklüğü için  */
+.yazi{
+    text-align: center;
+    font-size: 60px;
+}
+
+/* Haritayı ortalamk için */
+.col{
+    text-align: center;
+    margin-bottom: 10px;
+}

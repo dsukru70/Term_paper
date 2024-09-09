@@ -1,0 +1,59 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+/* NAvbarın arak pilan renigni belrilemek için */
+.navbar-kirmizi-renk{
+    background-color: #d31b2a !important; 
+    
+
+}
+
+/*  navbariçerisindeki linklerin rengini belirlemek için */
+.container ul li a{
+    color: white;
+    font-size: 16px;
+    margin-left: 20px;
+}
+
+/*  menu klasının genişliğini yüksekliğini ve dispilay diyerek özeliğini belritik */
+.menuler{
+    width: 95%;
+    height: 100%;
+    display: block;
+    margin-left: 30px;
+    
+}
+
+/* card ların genişliğini 3 card sığması ve marjin peding değerleri yüzünden %30 belirledik yüksekliğini 5050px
+dispilay-inline:block ile de bu kutuların yanyana gelmesini sağlamak için  */
+/* .block-menu{
+    width: 30%;
+    height: 550px;
+    display: inline-block;
+    border: 5px  solid #d31b2a ;
+    border-radius: 30px;
+    margin-left: 35px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+} */
+
+/* İçindeki yazıları ortalamak için kullanıldı  */
+.block-menu{
+    text-align: center;
+}
+
+.card-title{
+    font-size: 20px
+}
+
+.border-redus{
+    border: 5px solid #d31b2a  ;
+}
+
+.card-img-top{
+    object-fit: cover;
+    width: 100%;
+    height: 300px;
+}

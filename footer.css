@@ -1,0 +1,59 @@
+
+footer {
+    background-color:#d31b2a;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    width: 100%;
+}
+
+.footer-img{
+    position: absolute;
+}
+
+.footer-img-im{
+    width: 200px;
+    margin-top: 45px;
+    margin-left: 50px;
+}
+
+.footer-block {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.adres-numara-eposta p {
+    margin-bottom: 5px;
+    margin: 0;
+}
+
+.alt-yok{
+    text-decoration: none;
+    color: #fff;
+}
+
+
+
+.sosyal-medyalar {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.sosyal-medya {
+    color: #fff;
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+.sosyal-medya:hover {
+    color: #0c0b0a;
+}
+
+@media only screen and (min-width:150px) and (max-width:600px) {
+    .footer-img{
+        display: none;
+    }
+}
+
+
+
